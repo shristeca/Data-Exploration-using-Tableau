@@ -31,8 +31,8 @@ India is more famous for its different variety of food. To widely spread cuisine
 Here the analysis is done to check whether the services provided in a restaurant has any effect on the rating. The services are Table booking option, Online delivery and switching to order menu. Bar graphs has been plotted to explore this section.
 
 From the above graphs we can understand that,
--	Restaurants that provide table booking and online delivery tend to have higher rating.
--	Since no restaurants provide this service, nothing can be judged with this variable.
+1)	Restaurants that provide table booking and online delivery tend to have higher rating.
+2)	Since no restaurants provide this service, nothing can be judged with this variable.
 
 A line graph is plotted to show the maximum and minimum cost for two persons in a city. Minimum value is shown in green and maximum in red.
 
@@ -49,12 +49,13 @@ ggplot(data=india, aes(x=Aggregate.rating, y=Votes, group=1)) + geom_line()+geom
 
 ### Final Insights
 With the above visualizations we can conclude that,
--	India is the country with more number of restaurants registered with Zomato.
--	More number of restaurants in India are rated to be Average.
--	The North Indian cuisine tends to be on top of all other cuisines.
--	Service provided by the restaurants can be considered as one factor that affect the ratings.
--	Delhi and Noida are having the minimum average cost for two people in a restaurant (Rs 50, not taking the cities with zero as minimum value).
--	Delhi has the maximum average cost for two persons in a restaurant (Rs 8000).
--	The rating got by a restaurant fairly depends on the number of votes. 
+1)	India is the country with more number of restaurants registered with Zomato.
+2)	More number of restaurants in India are rated to be Average.
+3)	The North Indian cuisine tends to be on top of all other cuisines.
+4)	Service provided by the restaurants can be considered as one factor that affect the ratings.
+5)	Delhi and Noida are having the minimum average cost for two people in a restaurant (Rs 50, not taking the cities with zero as minimum value).
+6)	Delhi has the maximum average cost for two persons in a restaurant (Rs 8000).
+7)	The rating got by a restaurant fairly depends on the number of votes. 
+
 
 
